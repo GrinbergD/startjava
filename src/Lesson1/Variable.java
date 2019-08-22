@@ -7,12 +7,12 @@ public static void main(String[] args) {
     	 byte core = 2;
     	 char  modem = ADSL;
     	 double frequecy = 1.8;
-    	 float ram = 2048;
+    	 float ram = 2048.0;
     	 int flashMemory = 2;
     	 long kashMemory = 16;
     	 short cd = 500;
 
-        System.out.println(a1);
+       	 System.out.println(a1);
          System.out.println(core);
          System.out.println(modem);
          System.out.println(frequecy);
@@ -21,5 +21,5 @@ public static void main(String[] args) {
          System.out.println(kashMemory);
          System.out.println(cd);
 
-		}
+}
 }
