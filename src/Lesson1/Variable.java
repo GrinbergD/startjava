@@ -3,12 +3,12 @@ package Lesson1;
 public class Variable {
 
 public static void main(String[] args) {
-    	 boolean a1 = true;
+    	 boolean graficsOnBoard = true;
     	 byte core = 2;
     	 char  modem = ADSL;
     	 double frequecy = 1.8;
-    	 float ram = 1998;
-    	 int flashMemory = 1700;
+    	 float ram = 2048;
+    	 int flashMemory = 2;
     	 long kashMemory = 16;
     	 short cd = 500;
 
