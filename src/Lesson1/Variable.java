@@ -4,26 +4,23 @@ public class Variable {
 
 public static void main(String[] args) {
 
-
-
-
-    	 boolean a8 = true;
-    	 byte a1 = 4;
-    	 char a7 = 4634;
-    	 double a6 = 6754.7;
-    	 float a5 = 897965;
-    	 int a3 = 3000;
-    	 long a4 = 78434;
-    	 short a2 = 1000;
+    	 boolean a1 = true;
+    	 byte core = 2;
+    	 char  modem = ADSL;
+    	 double frequecy = 1.8;
+    	 float ram = 1998;
+    	 int flashMemory = 1700;
+    	 long kashMemory = 16;
+    	 short cd = 500;
 
         System.out.println(a1);
-         System.out.println(a2);
-         System.out.println(a3);
-         System.out.println(a4);
-         System.out.println(a5);
-         System.out.println(a6);
-         System.out.println(a7);
-         System.out.println(a8);
+         System.out.println(core);
+         System.out.println(modem);
+         System.out.println(frequecy);
+         System.out.println(ram);
+         System.out.println(flashMemory);
+         System.out.println(kashMemory);
+         System.out.println(cd);
 
 		}
 }
