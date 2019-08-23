@@ -2,13 +2,11 @@ package Lesson1;
 
 public class Variable {
 
-    private static final char ADSL = 'a';
-
     public static void main(String[] args) {
 
         boolean graficsOnBoard = true;
         byte core = 2;
-        char modem = ADSL;
+        char DvD = 6;
         double frequecy = 1.8;
         float ram = (float) 2048.0;
         int flashMemory = 2;
@@ -17,7 +15,7 @@ public class Variable {
 
         System.out.println(graficsOnBoard);
         System.out.println(core);
-        System.out.println(modem);
+        System.out.println(DvD);
         System.out.println(frequecy);
         System.out.println(ram);
         System.out.println(flashMemory);

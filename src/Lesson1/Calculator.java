@@ -3,8 +3,7 @@ package Lesson1;
 import java.util.Scanner;
 
 class Calculator {
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         String operation = "";
         Scanner input = new Scanner(System.in);
 
@@ -13,7 +12,7 @@ class Calculator {
 
         do {
             System.out.print("\nВведи знак операции :");
-            operation= input.next();
+            operation = input.next();
         } while (!operation.matches("[+,--/,^,%,*]"));
 
 
@@ -21,30 +20,20 @@ class Calculator {
         int y = input.nextInt();
 
 
-                if(operation.equals("+")){
-                    System.out.println("\nОтвет :" + (x + y));
-                }
+        if (operation.equals("+")) {
+            System.out.println("\nОтвет :" + (x + y));
+        } else if (operation.equals("-")) {
+            System.out.println("\nОтвет :" + (x - y));
+        } else if (operation.equals("*")) {
+            System.out.println("\nОтвет :" + (x * y));
+        } else if (operation.equals("/")) {
+            System.out.println("\nОтвет :" + (x / y));
+        } else if (operation.equals("%")) {
+            System.out.println("\nОтвет :" + (x % y));
+        } else if (operation.equals("^")) {
 
-                else if(operation.equals("-")){
-                    System.out.println("\nОтвет :" + (x - y));
-                }
-
-                else if(operation.equals("*")){
-                    System.out.println("\nОтвет :" + (x * y));
-                }
-
-                else if(operation.equals("/")){
-                    System.out.println("\nОтвет :" + (x / y));
-                }
-
-                else if(operation.equals("%")){
-                    System.out.println("\nОтвет :" + (x % y));
-                }
-
-                else if (operation.equals("^")){
-
-                    System.out.println("Ответ :" + (int) Math.pow(x,y));
-                }
+            System.out.println("Ответ :" + (int) Math.pow(x, y));
+        }
 
     }
 }
