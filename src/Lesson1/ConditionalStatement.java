@@ -4,12 +4,10 @@ package Lesson1;
 public class ConditionalStatement {
 
     public static void main(String[] args) {
-
-        int MyYears = 15;
-        if (MyYears > 20) {
+        int myYears = 15;
+        if (myYears > 20) {
             System.out.println("Нет, не верно");
         }
-
 
         boolean men = true;
         boolean women = true;
@@ -30,11 +28,11 @@ public class ConditionalStatement {
             System.out.println("Да, верно");
         }
 
-        char MyName = 'Д';
+        char myName = 'Д';
 
-        if (MyName == 'M') {
+        if (myName == 'M') {
             System.out.println("Нет");
-        } else if (MyName == 'И') {
+        } else if (myName == 'И') {
             System.out.println("No");
         } else {
             System.out.println("Мое имя начинается с другой буквы");
