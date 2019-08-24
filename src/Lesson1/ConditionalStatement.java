@@ -20,9 +20,9 @@ public class ConditionalStatement {
             System.out.println("No");
         }
 
-        double MySize = 1.81;
+        double mySize = 1.81;
 
-        if (MySize < 1.80) {
+        if (mySize < 1.80) {
             System.out.println("Нет, не верно");
         } else {
             System.out.println("Да, верно");
