@@ -1,6 +1,5 @@
 package Lesson1;
 
-
 public class ConditionalStatement {
 
     public static void main(String[] args) {
@@ -12,29 +11,26 @@ public class ConditionalStatement {
         boolean isMen = true;
         if (isMen) {
 
-            System.out.println("Yes");
+            System.out.println("Да");
         }
 
         if (!isMen) {
-            System.out.println("No");
+            System.out.println("Нет");
         }
 
         double myHeight = 1.81;
-
         if (myHeight < 1.80) {
             System.out.println("Нет, не верно");
         } else {
             System.out.println("Да, верно");
         }
-
         char firstLetterOfName = 'Д';
 
         if (firstLetterOfName == 'M') {
             System.out.println("Нет");
         } else if (firstLetterOfName == 'И') {
-            System.out.println("No");
+            System.out.println("Нет");
         } else {
-            System.out.println("Мое имя начинается с другой буквы");
         }
     }
 }
