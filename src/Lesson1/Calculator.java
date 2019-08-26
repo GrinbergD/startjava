@@ -14,7 +14,6 @@ class Calculator {
             operation = input.next();
         } while (!operation.matches("[+,--/,^,%,*]"));
 
-
         System.out.print("\nВведи второе целое число :");
         int y = input.nextInt();
 
