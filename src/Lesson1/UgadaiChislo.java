@@ -2,10 +2,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class UgadaiChislo {
-
     public static void main(String[] args) {
-
-
         Random random = new Random();
         Scanner input = new Scanner(System.in);
         int number1 = random.nextInt(100);
@@ -13,7 +10,7 @@ public class UgadaiChislo {
         int ugadai;
         boolean win = false;
         while (win == false) {
-            System.out.print("4Введи число: ");
+            System.out.print("Введи число: ");
             ugadai = input.nextInt();
             number2++;
 

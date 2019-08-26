@@ -18,7 +18,6 @@ class Calculator {
         System.out.print("\nВведи второе целое число :");
         int y = input.nextInt();
 
-
         if (operation.equals("+")) {
             System.out.println("\nОтвет :" + (x + y));
         } else if (operation.equals("-")) {
@@ -33,6 +32,5 @@ class Calculator {
 
             System.out.println("Ответ :" + (int) Math.pow(x, y));
         }
-
     }
 }
