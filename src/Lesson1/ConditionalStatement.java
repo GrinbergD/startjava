@@ -9,7 +9,6 @@ public class ConditionalStatement {
 
         boolean isMen = true;
         if (isMen) {
-
             System.out.println("Да");
         }
 
@@ -29,6 +28,7 @@ public class ConditionalStatement {
         } else if (firstLetterOfName == 'И') {
             System.out.println("Нет");
         } else {
+            System.out.println(".");
         }
     }
 }
