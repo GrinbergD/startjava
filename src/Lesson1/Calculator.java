@@ -28,7 +28,6 @@ class Calculator {
         } else if (operation.equals("%")) {
             System.out.println("\nОтвет :" + (x % y));
         } else if (operation.equals("^")) {
-
             System.out.println("Ответ :" + (int) Math.pow(x, y));
         }
     }

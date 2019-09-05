@@ -22,6 +22,7 @@ public class ConditionalStatement {
         } else {
             System.out.println("Да, верно");
         }
+
         char firstLetterOfName = 'Д';
         if (firstLetterOfName == 'M') {
             System.out.println("Нет");
